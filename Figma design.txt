@@ -1,0 +1,8 @@
+
+
+
+    Atmayog web-app Designs 
+	1. Home page : https://www.figma.com/file/tyWcxoWbl5tyGtzx02Xlss/Atmayoga_Yoga108?node-id=0-3&t=EE6D0tuWZL8bKmto-0
+	2. yoga page : https://www.figma.com/file/0XUfodbCHpmFM8hN5a1CVW/Yoga_page1?node-id=0-1&t=EE6D0tuWZL8bKmto-0
+	3. Courses   : https://www.figma.com/file/G9oN83fxfbOauMvmS0LAPl/yoga-courses?node-id=0-1&t=EE6D0tuWZL8bKmto-0
+	
