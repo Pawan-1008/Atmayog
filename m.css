@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',serif;
+  }
+  body
+  {
+    background-color: blueviolet;
+
+  }
+  body h1
+  {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    font-weight: 800;
+
+  }
+  body img
+  {
+    height: 55px;
+    width: 55px;
+  }
+  #ing img
+  {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 108px;
+    top: 23px;
+    margin-top: 23px;
+  }
+#ig img
+{
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    left: 570px;
+    top: 140px;
+    margin-top: 0.9px;
+}
+  .play img
+  {
+       height: 59px;
+       width: 59px;
+       margin-bottom: 20px;
+  }
+  .ing img
+  {
+    height: 59px;
+    width: 59px;
+    margin-bottom: 20px;
+  }
+  .app {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .time-select,
+  .sound-picker {
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+  }
+  .time-select button,
+  .sound-picker button {
+    color: white;
+    width: 30%;
+    height: 10%;
+    background: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid white;
+    transition: all 0.5s ease;
+  }
+  
+  .sound-picker button {
+    border: none;
+    height: 120px;
+    width: 120px;
+    padding: 30px;
+    border-radius: 50%;
+  }
+  .sound-picker button:nth-child(1) {
+    background: #4972a1;
+  }
+  .sound-picker button:nth-child(2) {
+    background: #a14f49;
+  }
+  .sound-picker button img {
+    height: 100%;
+  }
+  
+  .time-select button:hover {
+    background: white;
+    color: black;
+  }
+  
+  .player-container {
+    position: relative;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .player-container svg {
+    position: absolute;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    pointer-events: none;
+  }
+  .player-container svg circle {
+    transition: all 0.2s ease-in-out;
+  }
+  .time-display {
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    bottom: 10%;
+  }
+  
+  video {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: -10;
+  }
+
+#ig img
+{
+   animation: updown;
+   animation-duration: 9s;
+   animation-iteration-count: infinite;
+}
+@keyframes updown
+{
+    0%
+    {
+        transform: translateY(0px);
+    }
+    50%
+    {
+        transform: translateY(-40px);
+    }
+    100%
+    {
+        transform: translateY(0px);
+    }
+
+}
