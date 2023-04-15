@@ -25,10 +25,10 @@ Team members:
 
 4. Features 
     There are four kinds of service that we want to give to our users the features are 
-    a. Yoga courses
-    b. Mediation session
-    c. Wisdoms knowledge
-    d. Music session -- (in development)
+    1. Yoga courses
+    2. Mediation session
+    3. Wisdoms knowledge
+    4. Music session -- (in development)
     
     Also there is one special session we want to give our users is that when he/she wants to analyze the yoga-pose done by him/her then how it is correct, analyzed by the Machine learning module which is in under-development. The first phase of any pose-detection is completed by us the pose-estimation (Getting the keypoints from our real movements of our body then show the keypoints to the users by using camera) .This fifth feature is the very core of this project.
    
